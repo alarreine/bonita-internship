@@ -1,0 +1,147 @@
+\documentclass[12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[toc,page]{appendix}
+\usepackage{smartdiagram}
+\usepackage{indentfirst}
+
+\usepackage[edges]{forest}
+\usetikzlibrary{fit}
+
+
+\begin{document}
+\graphicspath{{images/}}
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+\setlength{\topmargin}{0in}
+\center % Center everything on the page
+
+
+ \begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\hspace*{-0.5cm}
+\includegraphics[scale=0.4]{images/imag.jpg}\\
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.5\textwidth}
+\begin{flushright} \large
+\hspace*{2cm}
+\includegraphics[scale=0.4]{images/company.png}\\
+\end{flushright}
+\end{minipage}\\[1cm]
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Université Grenoble Alpes}\\[1.5cm]
+\textsc{\Large Master 2 Génie Informatique}\\[0.5cm]
+\textsc{\large Mémoire d'Alternance}\\[0.5cm]
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Ingénieur DevOps}\\[0.4cm]
+\HRule \\[1cm]
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Gerardo \textsc{LARREINEGABE} \\
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.5\textwidth}
+\begin{flushright} \large
+\emph{Maître d’apprentissage:} \\
+Duy \textsc{Tran Quang} \\[0.5cm] % Supervisor's Name
+\emph{Tuteur Pédagogique:} \\
+Olivier \textsc{Gruber} % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[1cm]
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large Grenoble, le 25 août 2018}\\[0.5cm]
+
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\renewcommand{\abstractname}{Résumé}
+\begin{abstract}
+\noindent
+Dans le cadre de mon alternance, j'ai intégré l'équipe de IT au sein de
+la société Bonitasoft, qui gère plusieurs projets dont BCD forme part et vise
+à fournir au client une solution DevOps et des bonnes pratiques pour aboutir
+à la Livraison Continue des applications créés avec Bonitasoft.
+Le nom BCD est l'acronyme en anglais de \textit{Bonita Continuous Delivery}. \\
+BCD aborde deux problème commun des développeur qui est la \textbf{création}
+d'un environnement normalisé et le \textbf{déploiement} d'une application
+Bonitasoft.\\ \\
+\textbf{\textit{Mot clés:} livraison continue, déploiement,
+création d’environnement, devops}
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+Dans le cadre de mon alternance, j'ai occupé un poste d'Ingénieur DevOps dans
+l'entreprise Bonitasoft.
+Pour commencer, je présenterai mon entreprise, l'organisation, les différentes équipes,
+la méthode de travail de façon générale.
+En deuxième partie, je mettrai un accent sur l'équipe avec laquelle j'ai collaboré,
+l'organisation interne, la façon de travailler et les activités que l'équipe
+mène tous les jours.
+En troisième, j'exposerai le projet sur lequel j'ai travaillé, la problématique,
+et les objectifs de mon sujet, ainsi que les différentes techniques requises pour
+les accomplir.
+
+\input{organisation/intro}
+
+\input{product/intro}
+
+\input{internship_subject/intro}
+
+\input{reflection/reflection}
+
+\input{reflection/challenge}
+
+\input{reflection/skill_teaching}
+
+\input{reflection/skill_teaching}
+
+\input{reflection/future_work}
+
+
+\newpage
+\addcontentsline{toc}{section}{Références}
+\newpage
+
+\begin{appendices}
+\section{Back log}
+Jira Backlog
+
+\newpage
+\section{Contribution}
+GITHUB
+\end{appendices}
+\textbf{}
+\bibliographystyle{plain}
+\bibliography{biblio}
+\end{document}
