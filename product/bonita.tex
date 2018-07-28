@@ -5,7 +5,7 @@ Le BPM est la discipline de la gestion des processus (plutôt que des tâches) e
 
 Bonita est une plate-forme basé sur BPM qui sert à construire des applications, personnalisées, en prenant l'avantage plein du BPM pour s'adapter aux changements en temps réel.
 
-La plate-forme a deux parties:
+La plate-forme a deux parties. Voir Figure \ref{fig:bonita_archi}:
 \begin{itemize}
   \item Bonita Studio
   \item Bonita Plate-forme (Bonita Engine)
@@ -26,6 +26,8 @@ Le Studio contient une Plate-forme Bonita (Tomcat, UI Designer, Bonita Portal, B
 C'est le runtime processeur au cœur de Bonita. Il exécute des processus, en traitant des actions liées aux tâches, comme l'accès de base de données. Le Moteur est composé d'un certain nombre de services et API. Les services sont services BPM ou des services génériques.
 
 \begin{figure}[!ht]
-\includegraphics[scale=0.5]{bmp_archi.png}
+\centering
+\includegraphics[scale=0.5]{bonita_archi.png}
 \caption{Bonita Architecture}
+\label{fig:bonita_archi}
 \end{figure}

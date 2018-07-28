@@ -1,1 +1,24 @@
 \subsection{Bonita Continuous Delivery (BCD)}
+Bonita Continuos Delivery ou \textit{BCD} est uune solution qui permet l'intégration continue d'une application Bonita en promotionnant aussi des bonnes pratiques \emph{DevOps}
+
+Actuellement, \textit{BCD} a deux partie. Voir Figure \ref{fig:bcd_cap}:
+\begin{itemize}
+  \item Livingapp, qui permet la compilation d'un projet avec la gestion de bibliothèques essentiel pour une application \textit{Bonita Subscription}, sans avoir besoin de Bonita Studio, et aussi de déployer l'application compilé dans un stack Bonita configuré.
+  \item Stack, qui permet d'un part la création des environnement virtuel dans le cloud (AWS actuellement), et la installation d'un Stack Bonita dans les serveur configuré.
+\end{itemize}
+
+Les technologies utilises pour ce produit sont:
+\begin{itemize}
+  \item Python
+  \item Docker
+  \item Jenkins
+  \item Ansible
+  \item Cloud (AWS)
+\end{itemize}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=0.5]{bcd_capabilities.png}
+\caption{Fonctionnalités BCD}
+\label{fig:bcd_cap}
+\end{figure}
