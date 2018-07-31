@@ -6,7 +6,7 @@ open: $(FILE).pdf
 	open $(FILE).pdf
 
 $(FILE).pdf:
-	pdflatex -draftmode $(FILE).tex && pdflatex $(FILE).tex
+	latexmk -synctex=1 -interaction=nonstopmode -file-line-error -pdf report
 
 clean:
-	rm -f ${FILE}.{lof,lol,lot,toc,ps,pdf,log,aux,out,dvi,bbl,blg,fdb_latexmk,fls} *.log *.pdf
+	rm -f ${FILE}.{aux,bbl,blg,idx,ind,lof,lot,out,toc,acn,acr,alg,glg,glo,gls,ist,fls,log,fdb_latexmk} *.log *.pdf *.gz
