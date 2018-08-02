@@ -9,4 +9,4 @@ $(FILE).pdf:
 	latexmk -synctex=1 -interaction=nonstopmode -file-line-error -pdf report
 
 clean:
-	rm -f ${FILE}.{aux,bbl,blg,idx,ind,lof,lot,out,toc,acn,acr,alg,glg,glo,gls,ist,fls,log,fdb_latexmk} *.log *.pdf *.gz
+	rm -f *.aux *.bbl *.blg *.idx *.ind *.lof *.lot *.out *.toc *.acn *.acr *.alg *.glg *.glo *.gls *.ist *.fls *.log *.fdb_latexmk *.pdf *.gz
