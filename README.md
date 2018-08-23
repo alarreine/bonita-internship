@@ -9,5 +9,5 @@ To all Bonit@s in specially to my team:
 ### Docker
 To compile:
 ```bash
-docker run -v path_to_this_repo:/data alarreine/mylatex:luatex
+docker run -v path_to_this_repo:/data alarreine/mylatex:luatex make
 ```
