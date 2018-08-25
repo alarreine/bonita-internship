@@ -3,15 +3,16 @@
 \usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage[colorinlistoftodos]{todonotes}
 \usepackage[toc,page]{appendix}
 \usepackage{smartdiagram}
 \usepackage{indentfirst}
+\usepackage{csquotes}
 
 
 \usetikzlibrary{fit}
 \renewcommand{\contentsname}{Table des matières}
 \renewcommand\refname{Références}
+\renewcommand{\abstractname}{Résumé}
 
 \begin{document}
 \graphicspath{{images/}}
@@ -22,7 +23,7 @@
 \center % Center everything on the page
 
 
- \begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 \hspace*{-0.5cm}
 \includegraphics[scale=0.4]{images/imag.jpg}\\
@@ -79,14 +80,14 @@ Olivier \textsc{Gruber} % Supervisor's Name
 
 
 \vfill % Fill the rest of the page with whitespace
-
+\newpage
 \end{titlepage}
+\shipout\null
 
-\renewcommand{\abstractname}{Résumé}
 \begin{abstract}
 \noindent
 Dans le cadre de mon alternance, j'ai intégré l'équipe d’IT au sein de
-la société Bonitasoft, qui gère plusieurs projets dont fait partie BCD, qui vise
+la société Bonitasoft, qui gère plusieurs projets dont fait parti BCD, qui vise
 à fournir au client une solution DevOps et de bonnes pratiques pour aboutir
 à la Livraison Continue des applications créées avec Bonita.
 Le nom BCD est l'acronyme en anglais de \textbf{Bonita Continuous Delivery}. \\
