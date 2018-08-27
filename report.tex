@@ -82,7 +82,16 @@ Olivier \textsc{Gruber} % Supervisor's Name
 \vfill % Fill the rest of the page with whitespace
 \newpage
 \end{titlepage}
-\shipout\null
+
+\pagenumbering{gobble}
+\vfill
+\begin{figure}
+    \centering
+    \textbf{Présentation en-ligne}\par\medskip
+    \includegraphics [scale=0.9] {slide-url.png}
+\end{figure}
+\vfill
+\clearpage
 
 \begin{abstract}
 \noindent
@@ -96,6 +105,7 @@ d'un environnement normalisé et le \emph{déploiement} d'une application Bonita
 \textbf{\textit{Mot clés:} livraison continue, déploiement, devops, bonita
 création d’environnement}
 \end{abstract}
+\clearpage
 
 \newpage
 \setcounter{tocdepth}{2}
