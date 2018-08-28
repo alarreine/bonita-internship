@@ -1,7 +1,4 @@
-# C'est quoi Bonitasot?
-
-* Vision <!-- .element: class="fragment fade-in-then-semi-out" -->
-* Histoire <!-- .element: class="fragment fade-in-then-semi-out" -->
+# C'est quoi Bonitasoft?
 
 --
 
