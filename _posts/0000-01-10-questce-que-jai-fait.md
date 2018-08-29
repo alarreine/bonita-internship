@@ -5,7 +5,7 @@
 ## Défis
 
 <ul style="list-style-type:circle">
-  <li class="fragment fade-in-then-semi-out"><strong>DevOps: </strong>De nouvelles approches qui incluent 
+  <li class="fragment fade-in-then-semi-out"><strong>DevOps: </strong>De nouvelles approches qui incluent
   l'Intégration Continue (CI), le Déploiement Continu
    (CD).</li>
   <li class="fragment fade-in-then-semi-out"><strong>Agile: </strong>La communication dans un environnement agile avec
@@ -13,6 +13,9 @@
   <li class="fragment fade-in-then-semi-out"><strong>Docker: </strong>Les bonnes pratiques et les différentes façon de
    l'utiliser.</li>
 </ul>
+
+Note:
+Ici, je vais parler des défis rencontrés pendant l'alternance.
 
 --
 
@@ -22,7 +25,7 @@
   <li class="fragment fade-in-then-semi-out"><strong>Python: </strong>Comme un langage complet avec le paradigme OO avec TDD comme méthodologie.</li>
   <li class="fragment fade-in-then-semi-out"><strong>Jenkins: </strong> L’architecture et le langage DSL pour  
   cautomatiser les tests, la compilation, l’empaquetage d'un produit final.</li>
-  <li class="fragment fade-in-then-semi-out"><strong>AWS: </strong>Tous les nombreux services et la façon de nous en 
+  <li class="fragment fade-in-then-semi-out"><strong>AWS: </strong>Tous les nombreux services et la façon de nous en
   servir.</li>
 </ul>
 
@@ -33,7 +36,7 @@
 --
 
 <img src="assets/img/python.png" style="margin: 0 0 0 0; border:none; box-shadow: none; width:90px;height:90px;"/>  
-Développer et maintenir les scripts du Command Line Interface (CLI) de BCD. 
+Développer et maintenir les scripts du Command Line Interface (CLI) de BCD.
 
   <ul style="list-style-type:circle">
     <li class="fragment fade-in-then-semi-out">J'ai participé à la réorganisation du code pour le rendre plus modulaire.</li>
@@ -44,7 +47,7 @@ Développer et maintenir les scripts du Command Line Interface (CLI) de BCD.
 --
 
 <img src="assets/img/aws.png" style="margin: 0 0 0 0; border:none; box-shadow: none; width:90px;height:90px;"/>  
-Une partie de BCD gère des instances dans le cloud, aussi l'entreprise a passé d'autres services sur le cloud.
+Une partie de BCD gère des instances dans le cloud, aussi l'entreprise a d'autres services sur le cloud.
 
   <ul style="list-style-type:circle">
     <li class="fragment fade-in-then-semi-out">J'ai aidé à implémenter le service Organization de AWS.</li>
@@ -74,13 +77,17 @@ Gestion du dépôt privé.
 
 --
 
-<img src="assets/img/jenkins.png" style="margin: 0 0 0 0; border:none; box-shadow: none; width:90px;height:90px;"/>  
+<div class="fragment fade-up">
+<img src="assets/img/jenkins.png" style="margin: 0 0 0 0; border:none; box-shadow: none; width:300px;height:90px;"/>  
 
 Exécution de jobs pour l'empaquetage de livrables.
+</div>
+<div class="fragment fade-up">
+<img src="assets/img/docker_animated.gif" style="margin: 0 0 0 0; border:none; box-shadow: none; width:120px;height:120px;"/>
 
-<img src="assets/img/docker_animated.gif" style="margin: 0 0 0 0; border:none; box-shadow: none; width:90px;height:90px;"/>
+<p>Maintenir des images et l'investigation des nouvelles caractéristiques.</p>
 
-Maintenir des images et l'investigation des nouvelles caractéristiques.
+</div>
 
 --
 
@@ -89,10 +96,10 @@ height:120px;"/>
 
   <ul style="list-style-type:circle">
     <li class="fragment fade-in-then-semi-out">Daily Meeting</li>
-    <li class="fragment fade-in-then-semi-out">La Rétrospective, pour s’améliore.</li>
-    <li class="fragment fade-in-then-semi-out">La Réunion hebdomadaire.</li>
-    <li class="fragment fade-in-then-semi-out">Les estimations.</li>
-    <li class="fragment fade-in-then-semi-out">La sélection.</li>
+    <li class="fragment fade-in-then-semi-out">La Rétrospective</li>
+    <li class="fragment fade-in-then-semi-out">La Réunion hebdomadaire</li>
+    <li class="fragment fade-in-then-semi-out">Les estimations</li>
+    <li class="fragment fade-in-then-semi-out">La sélection</li>
   </ul>
 
 Note:
