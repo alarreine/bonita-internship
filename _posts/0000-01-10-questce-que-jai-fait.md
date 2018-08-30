@@ -2,7 +2,7 @@
 
 --
 
-## Défis
+## Challenge
 
 <ul style="list-style-type:circle">
   <li class="fragment fade-in-then-semi-out"><strong>DevOps: </strong>De nouvelles approches qui incluent
@@ -19,12 +19,11 @@ Ici, je vais parler des défis rencontrés pendant l'alternance.
 
 --
 
-## Défis
+## Challenge
 
 <ul style="list-style-type:circle">
   <li class="fragment fade-in-then-semi-out"><strong>Python: </strong>Comme un langage complet avec le paradigme OO avec TDD comme méthodologie.</li>
-  <li class="fragment fade-in-then-semi-out"><strong>Jenkins: </strong> L’architecture et le langage DSL pour  
-  cautomatiser les tests, la compilation, l’empaquetage d'un produit final.</li>
+  <li class="fragment fade-in-then-semi-out"><strong>Jenkins: </strong> La architecture et le langage DSL pour automatiser les tests, la compilation, l’empaquetage d'un produit final.</li>
   <li class="fragment fade-in-then-semi-out"><strong>AWS: </strong>Tous les nombreux services et la façon de nous en
   servir.</li>
 </ul>

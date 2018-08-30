@@ -5,7 +5,7 @@
 <!-- .slide: data-background-image="assets/img/bonita_teams.png" -->
 
 Note:
-Ici on peut regarder tous les équipes qui interviennent tous les jours. Je vais vous présenter rapidement tous et je vais ralentir avec l'équipe IT.
+Ici on peut regarder tous les équipes qui interviennent tous les jours. Je vais vous présenter rapidement tous mais plus en détail avec IT.
 
 --
 

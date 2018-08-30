@@ -26,3 +26,6 @@ Le succès de nos clients est notre succès, et tout le monde chez Bonitasoft es
 </details>
 
 <!-- .slide: data-background-image="assets/img/bonita_bg.jpg" -->
+
+Note:
+Vous pouvez lire la mission, et on voit qui est de faire le travail du dévelopeurle plus simple possible avec l'approche de "low-code"
